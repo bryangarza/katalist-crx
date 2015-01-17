@@ -3,8 +3,8 @@
 	"name" : "katalistExtension",
 	"description" : "Bookmarks App",
 	"version" :  "1.0",
-	"permissions" : 
+	"default_popup" : "popup.html",
+	"permissions" : [
 		"bookmarks"
-} ,
-	"default_popup" : "popup.html"
+	]
 }
