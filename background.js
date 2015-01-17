@@ -1,4 +1,4 @@
-var fb = new Firebase("https://katalist.firebaseio.com");
+var fb = new Firebase("https://bookmarks-nice.firebaseio.com");
 
 function bookmarkListener(id, changeInfo) {
 	// console.dir(changeInfo);
