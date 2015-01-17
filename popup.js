@@ -1,5 +1,5 @@
 $(function() {
-  chrome.bookmarks.onCreated.addListener(function(id, bookmark) {
-    console.log("Bookmark Created");
-  });
+  chrome.bookmarks.onCreated.addListener(function callback) {
+    callback(console.log("hello"));
+  };
 });
