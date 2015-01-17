@@ -4,7 +4,8 @@
 	"description" : "Bookmarks App",
 	"version" :  "1.0",
 	"permissions" : [
-		"bookmarks"
+		"bookmarks",
+        "tabs"
 	],
 	"browser_action" : {
 		"default_popup" : "popup.html"
