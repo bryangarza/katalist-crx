@@ -12,6 +12,7 @@
 	},
 	"background" : {
 		"scripts" : [
+			"firebase.js",
 			"background.js"
 		]
 	}

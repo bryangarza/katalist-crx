@@ -1,5 +1,19 @@
+var fb = new Firebase("https://katalist.firebaseio.com");
+
 function bookmarkListener(id, changeInfo) {
-	alert(id);
+	// console.dir(changeInfo);
+	var msg = fb.push();
+	msg.set({
+		uid: "some_id_we_will_figure_out_later",
+		url: changeInfo.url,
+		title: changeInfo.title,
+	}, function(err) {
+		if (err) {
+			// shit
+		} else {
+			alert("yey updated");
+		}
+	});
 };
 
 chrome.bookmarks.onChanged.addListener(bookmarkListener);
