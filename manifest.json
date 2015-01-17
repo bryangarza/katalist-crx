@@ -5,5 +5,7 @@
 	"version" :  "1.0",
 	"permissions" : [
 		"bookmarks"
-	]
+	],
+}, 
+	"default_popup" : "popup.html"
 }
