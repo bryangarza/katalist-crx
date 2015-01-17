@@ -6,6 +6,6 @@
 	"permissions" : [
 		"bookmarks"
 	],
-}, 
+} 
 	"default_popup" : "popup.html"
 }
